@@ -1,0 +1,74 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(247, 249, 176);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    height: auto; 
+  }
+
+h1  {
+    font-family: 'palatino', Courier, monospace;
+    color: rgb(145, 67, 8);
+    padding: 20px;
+    border: solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 216, 126);
+}
+
+p   {
+    font-size: large;
+    background-color: rgb(255, 210, 131);
+    padding: 40px;
+    border: solid 3px;
+    border-style: dashed;
+    border-color: rgb(225, 185, 66);
+}
+
+.btn {
+    background-color: #007BFF; /* Bootstrap blue */
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+.homepage-link {
+    text-align: center; /* Center the button */
+    margin: 20px 0;
+}
+
+.nutorg {
+    display: flex;
+    align-items: right; /* Optional: aligns items vertically in the container */
+    border: solid 3px;
+    background-color: white;
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#protein-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border: solid 2px #ccc;
+    border-radius: 8px;
+    height: 500px;
+    width: 500px;
+}
