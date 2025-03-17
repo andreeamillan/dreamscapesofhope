@@ -11,13 +11,18 @@ body {
 }
 
 h1  {
-  padding: 10px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
 
 }
 
+.quote {
+  color: rgb(255, 251, 193);
+  display: flex;
+}
 
 
