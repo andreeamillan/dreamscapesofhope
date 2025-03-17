@@ -36,66 +36,6 @@
 				</p>
 			</div>
 
-			<div class="minor-section">
-				
-					<!-- Note that all filenames use lowercase and no spaces -->
-				<h2>Ingredients</h2>
-				
-				<!-- This reduces our index.html down by moving the option values to the 
-				 JS file (site.js). Please test again if it works. If this doesn't work, 
-				 uncomment the original and recomment this one for testing. -->
-				<form id="sandwichForm">
-					<label for="bread">Bread:</label>
-					<select id="bread" name="bread"></select>
-				  
-					<label for="protein">Protein:</label>
-					<select id="protein" name="protein"></select>
-				</form>
-				<!-- Splits the selection sections into 2. Pls look for alternatives 
-				 if possible. -->
-				<form id="sandwichForm">
-					<label for="cheese">Cheese:</label>
-					<select id="cheese" name="cheese"></select>
-				  
-					<label for="veggies">Veggies:</label>
-					<select id="veggies" name="veggies"></select>
-				</form>
-				
-				<!-- Same thing with the selection buttons. -->
-				<form id="sandwichForm">	
-					<br><br><button type="button" id="submitButton">Create Sandwich</button>
-				</form>
-					<button class="about-us-btn">About Us</button>
-
-					<!-- About Us Information -->
-					<div id="about-info" class="about-info">
-						<p> </p>
-					</div>
-
-				<!-- Background overlay -->
-				<div id="popup-overlay" style="display: none;"></div>
-
-				<!-- Hidden Popup for validation -->
-				<div id="popup-check" class="popup" style="display: none;">
-					<p>At least select a bread for your "sandwich," my guy. (TuT)</p>
-					<button onclick="closePopup()">OK</button>
-				</div>
-
-				<!-- Hidden Popup for complete form -->
-				<div id="popup-plscomplete" class="popup" style="display: none;">
-					<p>Please complete filling out the rest of the remaining fields. 
-						We cannot properly gauge its nutrition facts otherwise.
-					</p>
-					<button onclick="closePopup()">OK</button>
-				</div>
-
-				<!-- Hidden Popup for Idiot Sandwich (only choosing bread) -->
-				<div id="popup-idiot-sandwich" class="popup" style="display: none;">
-					<p>How did you even find this?</p>
-					<img src="img/idiot-sandwich-poster.jpg" style="max-width: 500px; margin-bottom: 10px;">
-					<button onclick="closePopup()">OK</button>
-				</div>
-			</div>
 			
 			<style>
 				body {
