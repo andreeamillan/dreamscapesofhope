@@ -13,14 +13,19 @@ body {
 h1  {
     font-family:'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
-    padding: 20px;
-    padding-left: 40px;
+    padding-bottom: 10px;
     border: solid 4px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     background-color: rgb(181, 193, 251);
-    border-radius: 35px;
+    border-radius: 90px;
+    width: 300px;
+    margin: auto;
+  width: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+    
 }
 
 p   {
@@ -28,6 +33,12 @@ p   {
     background-color: rgb(116, 124, 239);
     padding: 40px;
     border-radius: 20px;
+    margin: auto;
+  width: 50%;
+  border: 3px solid rgb(25, 22, 93);
+  padding: 20px;
+  padding-top: 10px;
+  padding-top: 10px;
 }
 
 img {
