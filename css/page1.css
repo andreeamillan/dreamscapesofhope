@@ -7,37 +7,38 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    border-radius: 20px;
   }
 
 h1  {
-    font-family: 'palatino', Courier, monospace;
-    color: rgb(145, 67, 8);
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
     padding: 20px;
     border: solid 4px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 216, 126);
+    background-color: rgb(181, 193, 251);
+    border-radius: 35px;
 }
 
 p   {
     font-size: large;
-    background-color: rgb(255, 210, 131);
+    background-color: rgb(116, 124, 239);
     padding: 40px;
-    border: solid 3px;
-    border-style: dashed;
-    border-color: rgb(225, 185, 66);
+    border-radius: 20px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    padding-right: 40px;
+    width: 30%;
+    border-radius: 40px;
 
   }
 
-.homepage-link   {
+.homepage-link {
     background-color: black;
+    padding-top: 80px;
 }
