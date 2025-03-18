@@ -1,6 +1,6 @@
 body {
     font-family: 'palatino', Times, serif;
-    background-color: rgb(247, 249, 176);
+    background-color: rgb(39, 24, 61);
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -13,20 +13,34 @@ body {
 h1  {
     font-family:'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding-bottom: 10px;
     border: solid 4px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(181, 193, 251);
-    border-radius: 35px;
+    align-items: right;
+    background-color: rgb(68, 68, 152);
+    border-radius: 90px;
+    width: 300px;
+    margin: auto;
+  width: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+    
 }
 
 p   {
     font-size: large;
-    background-color: rgb(116, 124, 239);
+    background-color: rgb(229, 81, 169);
     padding: 40px;
     border-radius: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  width: 70%;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px;
+  padding-top: 10px;
+  padding-top: 10px;
 }
 
 img {
@@ -35,10 +49,15 @@ img {
     margin-right: auto;
     width: 30%;
     border-radius: 40px;
+    margin-bottom: 20px;
 
   }
 
-.homepage-link {
-    background-color: black;
-    padding-top: 80px;
-}
+button {
+position: absolute;
+  top: 0px;
+  width: 300px;
+  padding: 5px;
+  color:rgb(181, 193, 251);
+  background-color: rgb(11, 11, 35);
+  }
